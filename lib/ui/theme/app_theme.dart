@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class AppTheme {
+class Apptheme {
   static const Color backgroundColor = Color(0xff0C0F14);
   static const Color orange1Color = Color(0xffD98046);
   static const Color orange2Color = Color(0xffD17742);
@@ -10,6 +10,13 @@ class AppTheme {
   static const Color gray3Color = Color(0xff83868D);
   static const Color iconColor = Color(0xff53585C);
   static const Color iconActiveColor = Color(0xffCE7943);
+  // Reviews Ratings
+  static const Color reviewIconColor = Color(0xffD98046);
+  static TextStyle reviewRatting = GoogleFonts.roboto(
+    color: Colors.white,
+    fontSize: 13,
+    fontWeight: FontWeight.w400,
+  );
 
   // Style
   static TextStyle tileLarge = GoogleFonts.roboto(
@@ -23,13 +30,20 @@ class AppTheme {
     fontWeight: FontWeight.bold,
   );
   // Search
+  static const Color searchCursorColor = Color(0xff52575D);
   static const Color searchBacgroundColor = Color(0xff141821);
-  static TextStyle searchHintTextStyle = GoogleFonts.roboto(
+  static TextStyle searchTextStyle = GoogleFonts.roboto(
     color: const Color(0xff52575D),
-    fontSize: 13,
+    fontSize: 14,
     fontWeight: FontWeight.w400,
   );
   // Carda Large TextStyle
+  static const Color cardChipBackgroundColor = Color(0xff131218);
+  static TextStyle cardChipTextStyle = GoogleFonts.roboto(
+    color: const Color(0xffA99A97),
+    fontSize: 12,
+    fontWeight: FontWeight.w800,
+  );
   static TextStyle cardTitleLarge = GoogleFonts.roboto(
     color: Colors.white,
     fontSize: 24,
@@ -67,7 +81,7 @@ class AppTheme {
     fontSize: 18,
     fontWeight: FontWeight.w500,
   );
-  static TextStyle priceValorSmall = GoogleFonts.roboto(
+  static TextStyle priceValueSmall = GoogleFonts.roboto(
     color: Colors.white,
     fontSize: 18,
     fontWeight: FontWeight.w500,
@@ -82,7 +96,7 @@ class AppTheme {
     fontSize: 18,
     fontWeight: FontWeight.w400,
   );
-  static TextStyle priceValorLarge = GoogleFonts.roboto(
+  static TextStyle priceValueLarge = GoogleFonts.roboto(
     color: Colors.white,
     fontSize: 24,
     fontWeight: FontWeight.bold,
@@ -98,8 +112,9 @@ class AppTheme {
     color: Colors.white,
     fontSize: 14,
     fontWeight: FontWeight.w400,
+    height: 1.4,
   );
-  static TextStyle descriptionRead = GoogleFonts.roboto(
+  static TextStyle descriptionReadMore = GoogleFonts.roboto(
     color: const Color(0xffD07540),
     fontSize: 14,
     fontWeight: FontWeight.w400,

@@ -1,16 +1,14 @@
 # flutter_coffee_shop_app
 
-A new Flutter project.
+A new Flutter Coffe Shop App.
 
-## Getting Started
+## **Screens**
 
-This project is a starting point for a Flutter application.
+![UI](https://i.imgur.com/BXVGB2a.jpg)
 
-A few resources to get you started if this is your first Flutter project:
+## **Demo**
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![demo](https://raw.githubusercontent.com/ivansaul/demos/master/flutter/travel_news_app_demo.gif)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [UI - Figma](https://www.figma.com/community/file/1118287005440855350)
+- [UI - Dibbble](https://dribbble.com/shots/15475209-Coffee-Shop-Mobile-Apps-Dark-Mode)
