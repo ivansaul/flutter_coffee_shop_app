@@ -1,4 +1,4 @@
-# flutter_coffee_shop_app
+# Flutter Coffee Shop App
 
 A new Flutter Coffe Shop App.
 
