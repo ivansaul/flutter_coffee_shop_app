@@ -5,11 +5,13 @@ class CustomIconButton extends StatelessWidget {
   final double height;
   final Widget child;
   final double borderRadius;
+  final void Function()? onTap;
   const CustomIconButton({
     super.key,
     required this.width,
     required this.height,
     required this.child,
+    required this.onTap,
     this.borderRadius = 16,
   });
 
@@ -51,9 +53,10 @@ class CustomIconButton extends StatelessWidget {
             ),
             child: Material(
               color: Colors.transparent,
-              child: InkWell(onTap: () {
-                Navigator.of(context).pop();
-              }, child: child),
+              child: InkWell(
+                onTap: onTap,
+                child: child,
+              ),
             ),
           ),
         ],

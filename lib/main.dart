@@ -31,7 +31,8 @@ class MyApp extends StatelessWidget {
       locale: DevicePreview.locale(context),
       builder: DevicePreview.appBuilder,
       theme: ThemeData(useMaterial3: false),
-      home: const HomeScreen(),
+      // home: const HomeScreen(),
+      home: const IntroductionScreen(),
     );
   }
 }

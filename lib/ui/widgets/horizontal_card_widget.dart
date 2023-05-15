@@ -1,5 +1,3 @@
-import 'dart:ui';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_coffee_shop_app/ui/theme/app_theme.dart';
@@ -51,18 +49,19 @@ class HorizontalCardWidget extends StatelessWidget {
                     style: Apptheme.cardTitleMedium,
                   ),
                   const Spacer(),
-                  const Row(
+                  Row(
                     children: [
-                      Icon(
+                      const Icon(
                         Icons.coffee_rounded,
                         color: Apptheme.iconColor,
                       ),
-                      Spacer(),
+                      const Spacer(),
                       CustomFilledButton(
+                        onTap: () {},
                         height: 34,
                         width: 33,
                         color: Apptheme.buttonBackground1Color,
-                        child: Center(
+                        child: const Center(
                           child: Icon(
                             CupertinoIcons.paperplane_fill,
                             color: Colors.white,

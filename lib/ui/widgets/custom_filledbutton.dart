@@ -8,6 +8,7 @@ class CustomFilledButton extends StatelessWidget {
   final double borderRadius;
   final Color? borderColor;
   final double borderWidth;
+  final void Function()? onTap;
 
   const CustomFilledButton({
     Key? key,
@@ -15,9 +16,11 @@ class CustomFilledButton extends StatelessWidget {
     required this.height,
     required this.color,
     required this.child,
+    required this.onTap,
     this.borderRadius = 13,
     this.borderColor,
-    this.borderWidth = 2,
+    this.borderWidth = 2, 
+
   }) : super(key: key);
 
   @override
@@ -28,7 +31,7 @@ class CustomFilledButton extends StatelessWidget {
         color: color,
         child: InkWell(
           onHover: (value) {},
-          onTap: () {},
+          onTap: onTap,
           child: Container(
             decoration: (borderColor != null)
                 ? BoxDecoration(

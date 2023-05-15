@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_coffee_shop_app/data/tmp_data.dart';
+import 'package:flutter_coffee_shop_app/ui/screens/introduction_screen.dart';
 import 'package:flutter_coffee_shop_app/ui/theme/app_theme.dart';
 
 import '../widgets/widgets.dart';
@@ -77,10 +78,10 @@ class HomeScreen extends StatelessWidget {
                       height: 247,
                       child: ListView.builder(
                         scrollDirection: Axis.horizontal,
-                        itemCount: coffeeList.length,
+                        itemCount: DataTmp.coffeeList.length,
                         itemBuilder: (BuildContext context, int index) {
                           return VerticalCardWidget(
-                            coffee: coffeeList[index],
+                            coffee: DataTmp.coffeeList[index],
                           );
                         },
                       ),
@@ -121,10 +122,18 @@ class CustomAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: [
-        const CustomIconButton(
+        CustomIconButton(
+          onTap: () {
+            Navigator.push(
+              context,
+              MaterialPageRoute(
+                builder: (context) => const IntroductionScreen(),
+              ),
+            );
+          },
           width: 45,
           height: 45,
-          child: Icon(
+          child: const Icon(
             Icons.widgets,
             color: Apptheme.iconColor,
           ),

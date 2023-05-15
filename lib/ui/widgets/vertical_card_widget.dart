@@ -115,11 +115,12 @@ class VerticalCardWidget extends StatelessWidget {
                   ],
                 ),
                 const Spacer(),
-                const CustomFilledButton(
+                CustomFilledButton(
+                  onTap: () {},
                   height: 31,
                   width: 34,
                   color: Apptheme.buttonBackground1Color,
-                  child: Icon(
+                  child: const Icon(
                     Icons.add,
                     color: Colors.white,
                     size: 18,

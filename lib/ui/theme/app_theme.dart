@@ -10,6 +10,21 @@ class Apptheme {
   static const Color gray3Color = Color(0xff83868D);
   static const Color iconColor = Color(0xff53585C);
   static const Color iconActiveColor = Color(0xffCE7943);
+
+  // Page Indicator
+  static const Color indicatorInactiveColor = Color(0xff53585C);
+  static const Color indicatorActiveColor = Color(0xffCE7943);
+  static TextStyle introtile = GoogleFonts.roboto(
+    color: Colors.white,
+    fontSize: 30,
+    fontWeight: FontWeight.bold,
+  );
+  static TextStyle introSubtile = GoogleFonts.roboto(
+    color: const Color(0xffA99A97),
+    fontSize: 15,
+    fontWeight: FontWeight.w700,
+  );
+
   // Reviews Ratings
   static const Color reviewIconColor = Color(0xffD98046);
   static TextStyle reviewRatting = GoogleFonts.roboto(

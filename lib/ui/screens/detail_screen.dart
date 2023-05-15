@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_coffee_shop_app/entities/coffee.dart';
+import 'package:flutter_coffee_shop_app/ui/screens/home_screen.dart';
 import 'package:flutter_coffee_shop_app/ui/theme/app_theme.dart';
 import 'package:flutter_coffee_shop_app/ui/widgets/widgets.dart';
 import 'package:flutter_svg/svg.dart';
@@ -69,6 +70,7 @@ class DetailScreen extends StatelessWidget {
                       ],
                     ),
                     CustomFilledButton(
+                      onTap: () {},
                       width: 188,
                       height: 56,
                       borderRadius: 16,
@@ -109,27 +111,36 @@ class CardImageView extends StatelessWidget {
             ),
           ),
         ),
-        const Positioned(
+        Positioned(
           top: 20,
           left: 20,
           child: CustomIconButton(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const HomeScreen(),
+                ),
+              );
+            },
             width: 38,
             height: 38,
             borderRadius: 10,
-            child: Icon(
+            child: const Icon(
               CupertinoIcons.back,
               color: Apptheme.iconColor,
             ),
           ),
         ),
-        const Positioned(
+        Positioned(
           top: 20,
           right: 20,
           child: CustomIconButton(
+            onTap: () {},
             width: 38,
             height: 38,
             borderRadius: 10,
-            child: Icon(
+            child: const Icon(
               Icons.favorite,
               color: Apptheme.iconColor,
             ),
@@ -137,7 +148,9 @@ class CardImageView extends StatelessWidget {
         ),
 
         // BlurCardView
-         BlurCardView(coffee: coffee,),
+        BlurCardView(
+          coffee: coffee,
+        ),
       ],
     );
   }
@@ -309,6 +322,7 @@ class SizeChoiseView extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         CustomFilledButton(
+          onTap: () {},
           width: 91,
           height: 36,
           color: Apptheme.buttonBackground2Color,
@@ -319,6 +333,7 @@ class SizeChoiseView extends StatelessWidget {
           ),
         ),
         CustomFilledButton(
+          onTap: () {},
           width: 91,
           height: 36,
           color: Apptheme.buttonBackground2Color,
@@ -328,6 +343,7 @@ class SizeChoiseView extends StatelessWidget {
           ),
         ),
         CustomFilledButton(
+          onTap: () {},
           width: 91,
           height: 36,
           color: Apptheme.buttonBackground2Color,
