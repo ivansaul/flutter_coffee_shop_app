@@ -27,9 +27,9 @@ Check it yourself :)
 
 ## Screenshots
 
-<img src="" width="32%"> 
-<img src="" width="32%"> 
-<img src="" width="32%"> 
+<img src="https://github.com/ivansaul/flutter_coffee_shop_app/assets/15005581/c8f2a245-9f33-4929-94e1-42b266c97818" width="32%"> 
+<img src="https://github.com/ivansaul/flutter_coffee_shop_app/assets/15005581/41f38066-1c36-490f-b41d-68cb0d9b8238" width="32%"> 
+<img src="https://github.com/ivansaul/flutter_coffee_shop_app/assets/15005581/1b325f5e-9be6-447f-80bd-7390e721e7be" width="32%"> 
 
 ## Demo
 <p align="center">
