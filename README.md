@@ -6,13 +6,13 @@ A simple multiplatform application. Developed using Flutter, this app offers a s
 
 This project is not completed yet, as soon as possible when it's complete I will update it here. Stay tuned for more exciting updates!
 
-[![Made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) 
+[![Made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-orange)](https://flutter.dev/) 
 ![GitHub repo size](https://img.shields.io/github/repo-size/ivansaul/flutter_coffee_shop_app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### Don't forget to ⭐ the repo
-![GitHub stars](https://img.shields.io/github/stars/ivansaul/flutter_coffee_shop_app.svg?style=social&label=Star)
-![GitHub forks](https://img.shields.io/github/forks/ivansaul/flutter_coffee_shop_app.svg?style=social&label=Forks) 
+![GitHub stars](https://img.shields.io/github/stars/ivansaul/flutter_coffee_shop_app?style=social)
+![GitHub forks](https://img.shields.io/github/forks/ivansaul/flutter_coffee_shop_app?style=social) 
 
 ## Features
 
