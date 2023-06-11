@@ -2,7 +2,9 @@
 
 # Flutter Coffee Shop App
 
-A new Flutter Coffe Shop App.
+A simple multiplatform application. Developed using Flutter, this app offers a seamless and visually appealing coffee shopping experience on both iOS and Android devices.
+
+This project is not completed yet, as soon as possible when it's complete I will update it here. Stay tuned for more exciting updates!
 
 [![Made-with-flutter](https://img.shields.io/badge/Made%20with-Flutter-1f425f.svg)](https://flutter.dev/) 
 ![GitHub repo size](https://img.shields.io/github/repo-size/ivansaul/flutter_coffee_shop_app)
